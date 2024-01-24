@@ -1,0 +1,17 @@
+.logo {
+    width: 2.5vw; /* 로고의 너비를 뷰포트의 너비에 비례하게 설정 */
+    height: auto; /* 높이를 자동으로 설정하여 비율을 유지 */
+}
+
+.logo_text {
+    font-family: "ヒラギノ角ゴシック", sans-serif; /* 폰트 적용, 대체 폰트로 sans-serif 지정 */
+    font-size: calc(2.5vw * 0.385); /* 폰트 크기를 뷰포트 너비의 약 0.94%로 계산 */
+    margin-left: 0.5vw; /* 좌측 여백 설정 */
+}
+
+header h1 {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    gap: 0.15vw; /* 요소 사이 간격 설정 */
+    margin-left: 1vw;
+}
