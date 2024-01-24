@@ -1,21 +1,23 @@
-.header-content {
+.header-content { /* Entire top-side logo & navigation bar section */
     display: flex;
-    align-items: flex-start; /* Align children at the start of the cross axis (top) */
+    align-items: flex-start;
     margin-top: 1.25vw;
+    min-width: 1200px;
 }
 
-.logo_set {
+.logo_set {/* Logo with company name */
     display: flex;
-    align-items: center; /* Align logo and text vertically */
+    align-items: center;
     gap: 0.5vw;
 }
 
-.logo {
+.logo { /* logo svg file */
     width: 3vw;
     height: auto;
+    margin-left: 0.615vw;
 }
 
-.logo_text {
+.logo_text { /* company name text beside top logo */
     font-family: "ヒラギノ角ゴシック", sans-serif;
     font-size: calc(3vw * 0.385);
     margin: 0 0.5vw;
@@ -25,22 +27,29 @@
     justify-content: center;
 }
 
-.menu {
+.menu { /* Entire navigation bar */
     font-family: "ヒラギノ角ゴシック", sans-serif;
-    margin-left: auto; /* Push the menu to the right */
+    margin-left: auto;
     margin-right: 3.5vw;
-    margin-top: 0.3vw;
+    margin-top: 0.28vw;
 }
 
 .menu_main {
     float: left;
     font-weight: bold;
-    font-size: 1.1vw;
-    margin-top: 2%;
+    font-size: 1vw;
+    margin-top: 1.8vw;
     margin-right: 4.5vw;
+}
+
+.menu_main:hover {
+    transition: 1s ease-out;
+    font-size: 1.1vw;
 }
 
 .menu_sub {
     font-weight: lighter;
-    font-size: 1vw;
+    font-size: 0.975vw;
+    margin-top: 2vw;
+    line-height: 0.01vw;
 }
