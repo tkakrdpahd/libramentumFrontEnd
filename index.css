@@ -1,6 +1,7 @@
 .header-content {
     display: flex;
     align-items: flex-start; /* Align children at the start of the cross axis (top) */
+    margin-top: 1.25vw;
 }
 
 .logo_set {
@@ -28,11 +29,18 @@
     font-family: "ヒラギノ角ゴシック", sans-serif;
     margin-left: auto; /* Push the menu to the right */
     margin-right: 3.5vw;
+    margin-top: 0.3vw;
 }
 
 .menu_main {
     float: left;
+    font-weight: bold;
     font-size: 1.1vw;
     margin-top: 2%;
     margin-right: 4.5vw;
+}
+
+.menu_sub {
+    font-weight: lighter;
+    font-size: 1vw;
 }
