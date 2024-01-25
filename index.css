@@ -6,7 +6,7 @@ body {
 
 .header-content {
     padding: 1.15%;
-    background-color: rgb(149, 148, 151);
+    background-color: rgb(187, 186, 188);
     display: flex;
     align-items: flex-start;
     min-width: 1200px;
@@ -45,7 +45,9 @@ body {
     float: left;
     font-weight: bold;
     font-size: 0.86vw;
-    margin-top: 1.68vw;
+    text-decoration: none;
+    color: black;
+    margin-top: 1.72vw;
     margin-right: 4.25vw;
 }
 
