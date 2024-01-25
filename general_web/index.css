@@ -65,6 +65,9 @@ body {
 
 /* other logo css style */
 
+.other_service_logo {
+    padding-top: 0.5vw;
+}
 .melon_logo {
     width: 2.47vw;
 }
