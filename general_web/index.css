@@ -62,3 +62,23 @@ body {
     margin-top: 1.85vw;
     line-height: 0.01vw;
 }
+
+/* other logo css style */
+
+.melon_logo {
+    width: 2.47vw;
+}
+.youtube_logo {
+    width: 3.45vw;
+}
+.x_logo {
+    width: 2.41vw;
+}
+
+/* footer css style */
+
+footer {
+    color: white;
+    font-size: 0.6rem;
+    font-family: "ヒラギノ角ゴシック", sans-serif;
+}

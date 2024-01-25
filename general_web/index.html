@@ -10,28 +10,40 @@
     <header>
         <div class="header-content"> <!-- Top logo & navigation -->
             <span class="logo_set">
-                <object data="img/logo.svg" type="image/svg+xml" aria-label="로고" class="logo"></object>
+                <object data="img/libramentum_logo.svg" type="image/svg+xml" aria-label="로고" class="logo"></object>
                 <p class="logo_text">Libramentum <br> Entertainment</p>
             </span>
             <nav class="menu">
-                <a href="#" onclick="hrefLink()" class="menu_main">About
+                <a href="#" onclick="hrefLink(ab)" class="menu_main">About
                   <p class="menu_sub">Mission</p>
                   <p class="menu_sub">Contact Us</p>
                 </a>
-                <a href="#" class="menu_main">Announcement
+                <a href="#" onclick="hrefLink(an)" class="menu_main">Announcement
                     <p class="menu_sub">Artist's Notice</p>
                     <p class="menu_sub">Company's Notice</p>
                 </a>
-                <a href="#" class="menu_main">Creators
+                <a href="#" onclick="hrefLink(cr)" class="menu_main">Creators
                     <p class="menu_sub">Profile</p>
                 </a>
-                <a href="#" class="menu_main">Carrier
+                <a href="#" onclick="hrefLink(ca)" class="menu_main">Carrier
                     <p class="menu_sub">Agency</p>
                     <p class="menu_sub">Production</p>
                 </a>
-                <a href="#" class="menu_main">Shop</a>
+                <a href="#" onclick="hrefLink(sh)" class="menu_main">Shop</a>
             </nav>
         </div>
     </header>
+    <h2> <!-- other logos & video -->
+        <div class="other_service_logo">
+            <object data="img/youtube_logo.svg" type="image/svg+xml" onclick="logoLink()" aria-label="멜론_로고" class="youtube_logo"></object>
+            <object data="img/melon_logo.svg" type="image/svg+xml" onclick="logoLink()" aria-label="멜론_로고" class="melon_logo"></object>
+            <object data="img/x_logo.svg" type="image/svg+xml" onclick="logoLink()" aria-label="멜론_로고" class="x_logo"></object>
+        </div>
+    </h2>
+    <footer>
+        <p>리브라멘툼 (주)</p>
+        <p>사업자등록번호: [사업자등록번호 입력] | 통신판매업등록번호: [통신판매업등록번호 입력] | 대중문화예술기획업 등록번호: [대중문화예술기획업 등록번호 입력]</p>
+        <p>© All rights reserved. Libramentum, Co. Ltd. 2024</p>
+    </footer>    
 </body>
 </html>
