@@ -1,7 +1,14 @@
-.header-content { /* Entire top-side logo & navigation bar section */
+body {
+    margin: 0; /* Resets default margin */
+    padding: 0; /* Resets default padding */
+    background-color: black;
+}
+
+.header-content {
+    padding: 2.3%;
+    background-color: rgb(177, 171, 167);
     display: flex;
     align-items: flex-start;
-    margin-top: 1.25vw;
     min-width: 1200px;
 }
 
@@ -31,7 +38,7 @@
     font-family: "ヒラギノ角ゴシック", sans-serif;
     margin-left: auto;
     margin-right: 3.5vw;
-    margin-top: 0.28vw;
+    margin-top: 0.24vw;
 }
 
 .menu_main {
@@ -43,8 +50,8 @@
 }
 
 .menu_main:hover {
-    transition: 1s ease-out;
-    font-size: 1.1vw;
+    transition: 0.5s ease-out;
+    color:white;
 }
 
 .menu_sub {
