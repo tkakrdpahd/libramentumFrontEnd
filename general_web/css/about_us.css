@@ -1,0 +1,80 @@
+/* desctop setting */
+@media screen and (min-width: 1080px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    .header-content {
+        padding: 1.15%;
+        background-color: rgb(194, 194, 197);
+        display: flex;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .logo_set {/* Logo with company name */
+        color:black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+    }
+
+    .logo { /* logo svg file */
+        width: 2.47vw;
+        height: auto;
+        margin-left: 0.615vw;
+    }
+
+    .logo_text { /* company name text beside top logo */
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        font-size: calc(2.47vw * 0.385);
+        font-weight: light;
+        margin: 0 0.5vw;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu { /* Entire navigation bar */
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        margin-left: auto;
+        margin-right: 3.5vw;
+        margin-top: 0.12vw;
+    }
+
+    .menu_main {
+        float: left;
+        font-weight: bold;
+        font-size: 0.8vw;
+        text-decoration: none;
+        color: black;
+        margin-top: 1.72vw;
+        margin-right: 4.25vw;
+    }
+
+    .menu_main:hover {
+        transition: 0.5s ease-out;
+        color:white;
+    }
+
+    .menu_sub {
+        font-weight: lighter;
+        font-size: 0.7vw;
+        margin-top: 1.85vw;
+        line-height: 0.01vw;
+    }
+
+    .first_page{
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        color: white;
+        margin-top: 10vw; /* margin for top menu */
+        padding: 2vw;
+    }
+}

@@ -1,7 +1,20 @@
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('index').addEventListener('click', function() {
+        hrefLink('in');
+    });
+    document.getElementById('about_us').addEventListener('click', function() {
+        hrefLink('ab');
+    });
+});
+
 // link redirection
 
 function hrefLink(page) {
     switch(page) {
+        case 'in':
+            window.location.href = './index.html'; // change to 'www.libramentum.co.kr/index.html'
+            break;
         case 'ab':
             window.location.href = './html/about_us.html';
             break;
