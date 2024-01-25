@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('about_us').addEventListener('click', function() {
         hrefLink('ab');
     });
+    document.getElementById('announcement').addEventListener('click', function() {
+        hrefLink('an');
+    });
+    document.getElementById('creators').addEventListener('click', function() {
+        hrefLink('cr');
+    });
+    document.getElementById('carrier').addEventListener('click', function() {
+        hrefLink('ca');
+    });
+    document.getElementById('shop').addEventListener('click', function() {
+        hrefLink('sh');
+    });
 });
 
 // link redirection

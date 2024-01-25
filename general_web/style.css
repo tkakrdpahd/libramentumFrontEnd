@@ -8,7 +8,7 @@
 
     .header-content {
         padding: 1.15%;
-        background-color: rgb(194, 194, 197);
+        background-color: rgb(196, 196, 196);
         display: flex;
         align-items: flex-start;
         position: fixed;
@@ -71,11 +71,17 @@
         line-height: 0.01vw;
     }
 
-    .first_page{
-        font-family: "ヒラギノ角ゴシック", sans-serif;
+    .first_page {
+    margin-top: 10vw; /* margin for top menu */
+    }
+
+    .first_page_title{
         color: white;
-        margin-top: 10vw; /* margin for top menu */
-        padding: 2vw;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        padding-top: 1vw;
+        padding-left: 2vw;
     }
 
     .logos_and_video {
