@@ -8,7 +8,7 @@
 
     .header-content {
         padding: 1.15%;
-        background-color: rgb(196, 196, 196);
+        background-color: rgb(255, 255, 255);
         display: flex;
         align-items: flex-start;
         position: fixed;
@@ -61,7 +61,7 @@
 
     .menu_main:hover {
         transition: 0.5s ease-out;
-        color:white;
+        color:magenta;
     }
 
     .menu_sub {
@@ -75,12 +75,21 @@
     margin-top: 10vw; /* margin for top menu */
     }
 
-    .first_page_title{
+    .first_page_title {
         color: white;
         font-size: 2rem;
         font-weight: bold;
         font-family: "ヒラギノ角ゴシック", sans-serif;
         padding-top: 1vw;
+        padding-left: 2vw;
+    }
+
+    .first_page_main {
+        color: white;
+        font-size: 1rem;
+        font-weight: light;
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        padding-top: 0.6vw;
         padding-left: 2vw;
     }
 
@@ -142,7 +151,7 @@
     }
     .header-content {
         padding: 1.15%;
-        background-color: rgb(194, 194, 197);
+        background-color: rgb(255, 255, 255);
         display: flex;
         align-items: flex-start;
         position: fixed;
@@ -175,7 +184,7 @@
 
     .menu_main {
         float: left;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 0.9rem;
         text-decoration: none;
         color: black;
@@ -186,7 +195,7 @@
 
     .menu_main:hover {
         transition: 0.5s ease-out;
-        color:white;
+        color:magenta;
     }
 
     .menu_sub {
@@ -198,6 +207,24 @@
         color:white;
         margin-top: 10vw; /* margin for top menu */
         padding: 2vw;
+    }
+    
+    .first_page_title {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        padding-top: 1vw;
+        padding-left: 2vw;
+    }
+    
+    .first_page_main {
+        color: white;
+        font-size: 1rem;
+        font-weight: light;
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        padding-top: 0.6vw;
+        padding-left: 2vw;
     }
 
     .logos_and_video {
@@ -246,7 +273,7 @@
 
     footer {
         color: white;
-        font-size: 0.65rem;
+        font-size: 0.72rem;
         font-family: "ヒラギノ角ゴシック", sans-serif;
         text-align:center;
     }

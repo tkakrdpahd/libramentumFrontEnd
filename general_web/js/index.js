@@ -1,3 +1,4 @@
+// EventListener for web-page
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('index').addEventListener('click', function() {
@@ -20,8 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// link redirection
-
 function hrefLink(page) {
     switch(page) {
         case 'in':
@@ -31,16 +30,16 @@ function hrefLink(page) {
             window.location.href = './html/about_us.html';
             break;
         case 'an':
-            window.location.href = 'https://notice.libramentum.co.kr';
+            window.location.href = 'https://notice.libramentum.co.kr'; // link to tistory custom page
             break;
         case 'cr':
-            window.location.href = 'https://creators.libramentum.co.kr';
+            window.location.href = './html/creators.html';
             break;
         case 'ca':
             window.location.href = 'https://carrier.libramentum.co.kr';
             break;
         case 'sh':
-            window.location.href = 'https://shop.libramentum.co.kr';
+            window.location.href = './html/shop.html'; // js need connect to naver marketplace API DB
             break;
         default:
             break;
@@ -50,4 +49,3 @@ function hrefLink(page) {
 function logoLink() {
 
 }
-// node.js redirection to data server
