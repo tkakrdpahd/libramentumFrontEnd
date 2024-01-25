@@ -1,87 +1,245 @@
-body {
-    margin: 0; /* Resets default margin */
-    padding: 0; /* Resets default padding */
-    background-color: black;
+/* desctop setting */
+@media screen and (min-width: 1080px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    .header-content {
+        padding: 1.15%;
+        background-color: rgb(194, 194, 197);
+        display: flex;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .logo_set {/* Logo with company name */
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+    }
+
+    .logo { /* logo svg file */
+        width: 2.47vw;
+        height: auto;
+        margin-left: 0.615vw;
+    }
+
+    .logo_text { /* company name text beside top logo */
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        font-size: calc(2.47vw * 0.385);
+        font-weight: light;
+        margin: 0 0.5vw;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu { /* Entire navigation bar */
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        margin-left: auto;
+        margin-right: 3.5vw;
+        margin-top: 0.12vw;
+    }
+
+    .menu_main {
+        float: left;
+        font-weight: bold;
+        font-size: 0.8vw;
+        text-decoration: none;
+        color: black;
+        margin-top: 1.72vw;
+        margin-right: 4.25vw;
+    }
+
+    .menu_main:hover {
+        transition: 0.5s ease-out;
+        color:white;
+    }
+
+    .menu_sub {
+        font-weight: lighter;
+        font-size: 0.7vw;
+        margin-top: 1.85vw;
+        line-height: 0.01vw;
+    }
+
+    .first_page{
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        color: white;
+        margin-top: 10vw; /* margin for top menu */
+        padding: 2vw;
+    }
+
+    .logos_and_video {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* main page video css setting */
+
+    .video_main {
+        padding: 1.5vw;
+    }
+
+    iframe {
+        width: calc(16vw * 3.2);
+        height: calc(9vw * 3.2);
+    }
+
+    /* other logo css setting */
+
+    .other_service_logo {
+        display: inline-block;
+        padding-left: 1.5vw;
+    }
+
+    .other_service_logo > object {
+        display: inline;
+        padding-right: 0.18vw;
+    }
+
+    .melon_logo {
+        width: calc(2.47vw * 0.72);
+    }
+    .youtube_logo {
+        width: calc(3.45vw * 0.72);
+    }
+    .x_logo {
+        width: calc(2.41vw * 0.72);
+    }
+
+    /* footer css style */
+
+    footer {
+        color: white;
+        font-size: 0.65rem;
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        text-align:center;
+    }
 }
 
-.header-content {
-    padding: 1.15%;
-    background-color: rgb(187, 186, 188);
-    display: flex;
-    align-items: flex-start;
-    min-width: 1200px;
-}
+/* mobile device */
+@media screen and (max-width: 1079px) {
+    body {
+        margin: 0; /* Resets default margin */
+        padding: 0; /* Resets default padding */
+        background-color: black;
+    }
+    .header-content {
+        padding: 1.15%;
+        background-color: rgb(194, 194, 197);
+        display: flex;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }    
 
-.logo_set {/* Logo with company name */
-    display: flex;
-    align-items: center;
-    gap: 0.5vw;
-}
+    .logo_set {/* Logo with company name */
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
 
-.logo { /* logo svg file */
-    width: 2.47vw;
-    height: auto;
-    margin-left: 0.615vw;
-}
+    .logo { /* logo svg file */
+        width: 5vw;
+        height: auto;
+        margin-left: 0.615vw;
+    }
+    .logo_text { /* company name text beside top logo */
+        display: none
+    }
 
-.logo_text { /* company name text beside top logo */
-    font-family: "ヒラギノ角ゴシック", sans-serif;
-    font-size: calc(2.47vw * 0.385);
-    margin: 0 0.5vw;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .menu { /* Entire navigation bar */
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        margin-left: auto;
+        margin-right: 3.5vw;
+        margin-top: 0.12vw;
+    }
 
-.menu { /* Entire navigation bar */
-    font-family: "ヒラギノ角ゴシック", sans-serif;
-    margin-left: auto;
-    margin-right: 3.5vw;
-    margin-top: 0.27vw;
-}
+    .menu_main {
+        float: left;
+        font-weight: normal;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        margin-left: 4.25vw;
+    }
 
-.menu_main {
-    float: left;
-    font-weight: bold;
-    font-size: 0.86vw;
-    text-decoration: none;
-    color: black;
-    margin-top: 1.72vw;
-    margin-right: 4.25vw;
-}
+    .menu_main:hover {
+        transition: 0.5s ease-out;
+        color:white;
+    }
 
-.menu_main:hover {
-    transition: 0.5s ease-out;
-    color:white;
-}
+    .menu_sub {
+        display: none
+    }
 
-.menu_sub {
-    font-weight: lighter;
-    font-size: 0.75vw;
-    margin-top: 1.85vw;
-    line-height: 0.01vw;
-}
+    .first_page{
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        color:white;
+        margin-top: 10vw; /* margin for top menu */
+        padding: 2vw;
+    }
 
-/* other logo css style */
+    .logos_and_video {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-.other_service_logo {
-    padding-top: 0.5vw;
-}
-.melon_logo {
-    width: 2.47vw;
-}
-.youtube_logo {
-    width: 3.45vw;
-}
-.x_logo {
-    width: 2.41vw;
-}
+    /* main page video css setting */
 
-/* footer css style */
+    .video_main iframe {
+        box-sizing: border-box;
+        padding: 2vw;
+        width: 100vw;
+        height: calc(100vw * 9 / 16);
+    }    
 
-footer {
-    color: white;
-    font-size: 0.6rem;
-    font-family: "ヒラギノ角ゴシック", sans-serif;
+    iframe {
+        width: 100vw; /* 뷰포트 너비의 100% */
+        height: calc(100vw * 9 / 16); /* 16:9 비율 유지 */
+    }  
+
+    /* other logo css setting */
+
+    .other_service_logo {
+        display: inline-block;
+        padding-left: 2vw;
+    }
+
+    .other_service_logo > object {
+        display: inline;
+        padding-right: 0.18vw;
+    }
+
+    .melon_logo {
+        width: calc(2.47vw * 1.75);
+    }
+    .youtube_logo {
+        width: calc(3.45vw * 1.75);
+    }
+    .x_logo {
+        width: calc(2.41vw * 1.75);
+    }
+    
+    /* footer css style */
+
+    footer {
+        color: white;
+        font-size: 0.65rem;
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        text-align:center;
+    }
 }

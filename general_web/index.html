@@ -14,39 +14,42 @@
                 <p class="logo_text">Libramentum <br> Entertainment</p>
             </span>
             <nav class="menu">
-                <a href="#" onclick="hrefLink(ab)" class="menu_main">About
+                <a href="#" onclick="hrefLink('ab')" class="menu_main">About
                   <p class="menu_sub">Mission</p>
                   <p class="menu_sub">Contact Us</p>
                 </a>
-                <a href="#" onclick="hrefLink(an)" class="menu_main">Announcement
+                <a href="#" onclick="hrefLink('an')" class="menu_main">Announcement
                     <p class="menu_sub">Artist's Notice</p>
                     <p class="menu_sub">Company's Notice</p>
                 </a>
-                <a href="#" onclick="hrefLink(cr)" class="menu_main">Creators
+                <a href="#" onclick="hrefLink('cr')" class="menu_main">Creators
                     <p class="menu_sub">Profile</p>
                 </a>
-                <a href="#" onclick="hrefLink(ca)" class="menu_main">Carrier
+                <a href="#" onclick="hrefLink('ca')" class="menu_main">Carrier
                     <p class="menu_sub">Agency</p>
                     <p class="menu_sub">Production</p>
                 </a>
-                <a href="#" onclick="hrefLink(sh)" class="menu_main">Shop</a>
+                <a href="#" onclick="hrefLink('sh')" class="menu_main">Shop</a>
             </nav>
         </div>
     </header>
-    <div class="logos_and_video"> <!-- other logos & video -->
-        <span>
-
-        </span>
-        <p class="other_service_logo">
-            <object data="img/youtube_logo.svg" type="image/svg+xml" onclick="logoLink(y)" aria-label="멜론_로고" class="youtube_logo"></object>
-            <object data="img/melon_logo.svg" type="image/svg+xml" onclick="logoLink(m)" aria-label="멜론_로고" class="melon_logo"></object>
-            <object data="img/x_logo.svg" type="image/svg+xml" onclick="logoLink(x)" aria-label="멜론_로고" class="x_logo"></object>
-        </p>
+    <div class="first_page">
+        <p>Other announcement</p>
     </div>
-    <footer>
-        <p>리브라멘툼 (주)</p>
-        <p>사업자등록번호: [사업자등록번호 입력] | 통신판매업등록번호: [통신판매업등록번호 입력] | 대중문화예술기획업 등록번호: [대중문화예술기획업 등록번호 입력]</p>
-        <p>© All rights reserved. Libramentum, Co. Ltd. 2024</p>
+    <div class="logos_and_video"> <!-- other logos & video -->
+        <span class="video_main">
+            <iframe src="https://www.youtube.com/embed/CoyQM_Zi0OM?si=0f7pg0srQLajFH1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </span>
+        <span class="other_service_logo">
+            <object data="img/youtube_logo.svg" type="image/svg+xml" onclick="logoLink(y)" aria-label="유튜브_로고" class="youtube_logo"></object>
+            <object data="img/melon_logo.svg" type="image/svg+xml" onclick="logoLink(m)" aria-label="멜론_로고" class="melon_logo"></object>
+            <object data="img/x_logo.svg" type="image/svg+xml" onclick="logoLink(x)" aria-label="트위터_로고" class="x_logo"></object>
+        </span>
+    </div>
+    <footer> <!-- company information -->
+        <p>유한회사 리브라멘툼</p>
+        <p>사업자등록번호: [사업자등록번호 입력] | 통신판매업등록번호: [통신판매업등록번호 입력]</p>
+        <p>© Libramentum, Co. Ltd. All rights reserved. 2024</p>
     </footer>
 </body>
 </html>
