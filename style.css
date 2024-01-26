@@ -7,7 +7,6 @@
     }
 
     .header-content {
-        padding: 1.15%;
         background-color: rgb(255, 255, 255);
         display: flex;
         align-items: flex-start;
@@ -23,6 +22,7 @@
         display: flex;
         align-items: center;
         gap: 0.5vw;
+        margin: 1vw;
     }
 
     .logo { /* logo svg file */
@@ -42,14 +42,17 @@
         justify-content: center;
     }
 
-    .menu { /* Entire navigation bar */
+    .menu_entire {
         font-family: "ヒラギノ角ゴシック", sans-serif;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
         margin-left: auto;
         margin-right: 3.5vw;
-        margin-top: 0.12vw;
+        margin-top: 0.52vw;
     }
-
-    .menu_main {
+    
+    .menu_entire a {
         float: left;
         font-weight: bold;
         font-size: 0.8vw;
@@ -57,18 +60,64 @@
         color: black;
         margin-top: 1.72vw;
         margin-right: 4.25vw;
+        margin-bottom: 2vw;
     }
-
-    .menu_main:hover {
-        transition: 0.5s ease-out;
-        color:magenta;
-    }
-
-    .menu_sub {
+    
+    .menu_entire span {
         font-weight: lighter;
-        font-size: 0.7vw;
-        margin-top: 1.85vw;
+        font-size: 0.9rem;
+        margin-bottom: 1.8vw;
         line-height: 0.01vw;
+    } 
+
+    .menu_set {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_about_sub:hover {
+        transition: 0.5s ease-out;
+        color: cyan;
+    }
+
+    .menu_about:hover {
+        transition: 0.5s ease-out;
+        color: cyan;
+    }
+
+    .menu_announcement_sub:hover {
+        transition: 0.5s ease-out;
+        color: magenta;
+    }
+
+    .menu_announcement:hover {
+        transition: 0.5s ease-out;
+        color: magenta;
+    }
+
+    .menu_creators_sub:hover {
+        transition: 0.5s ease-out;
+        color: yellow;
+    }
+
+    .menu_creators:hover {
+        transition: 0.5s ease-out;
+        color: yellow;
+    }
+
+    .menu_carrier_sub:hover {
+        transition: 0.5s ease-out;
+        color: red;
+    }
+
+    .menu_carrier:hover {
+        transition: 0.5s ease-out;
+        color: red;
+    }
+
+    .menu_shop:hover {
+        transition: 0.5s ease-out;
+        color: green;
     }
 
     .first_page {
@@ -193,14 +242,30 @@
         margin-left: 4.25vw;
     }
 
-    .menu_main:hover {
-        transition: 0.5s ease-out;
-        color:magenta;
+    .menu_entire {
+        font-family: "ヒラギノ角ゴシック", sans-serif;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: 3.5vw;
+        margin-top: 0.52vw;
+    }
+    
+    .menu_entire a {
+        float: left;
+        font-weight: bold;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        margin-left: 4.25vw;
     }
 
-    .menu_sub {
+    .menu_entire span {
         display: none
-    }
+    } 
 
     .first_page{
         font-family: "ヒラギノ角ゴシック", sans-serif;
