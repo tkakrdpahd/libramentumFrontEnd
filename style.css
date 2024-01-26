@@ -4,6 +4,7 @@
         margin: 0;
         padding: 0;
         background-color: black;
+        margin-top: 10vw; /* margin for top menu */
     }
 
     .header-content {
@@ -99,8 +100,8 @@
         color: green;
     }
 
-    .first_page {
-    margin-top: 10vw; /* margin for top menu */
+    header {
+    
     }
 
     .first_page_title {
