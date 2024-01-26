@@ -6,45 +6,45 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <div class="header-content"> <!-- Top logo & navigation -->
-            <a href="#" id='index' class="logo_set">
-                <img src="../img/libramentum_logo.svg" aria-label="로고" class="logo"></img>
-                <p class="logo_text">Libramentum <br> Entertainment</p>
-            </a>
-            <nav class="menu_entire">
-                <div class="menu_set">
-                    <a href="#" id='about_us' class="menu_about">About</a>
-                    <span class="menu_about_sub">Mission</span>
-                    <span class="menu_about_sub">Contact Us</span>
-                </div>
-                <div class="menu_set">
-                    <a href="#" id="announcement" class="menu_announcement">Announcement</a>
-                    <span class="menu_announcement_sub">Artist's Notice</span>
-                    <span class="menu_announcement_sub">Company's Notice</span>
-                </div>
-                <div class="menu_set">
-                    <a href="#" id="creators" class="menu_creators">Creators</a>
-                    <span class="menu_creators_sub">Profile</p>
-                </div>
-                <div class="menu_set">
-                    <a href="#" id="carrier" class="menu_carrier">Carrier</a>
-                    <span class="menu_carrier_sub">Agency</span>
-                    <span class="menu_carrier_sub">Production</span>
-                </div>
-                <a href="#" id="shop" class="menu_shop">Shop</a>
-            </nav>
-        </div>
+    <header> <!-- entier hader including logo and navigation bar -->
+        <a href="#" id="index">
+            <div class="main_logo_set"> <!-- logo setting -->
+                <img src="../img/libramentum_logo.svg" alt="libramentum_logo" class="libramentum_logo">
+                <h1 class="libramentum_logo_text">Libramentum<br>Entertainment</h1>
+            </div>
+        </a>
+        <nav> <!-- navigation bar setting -->
+            <div class="menu_column">
+                <a href="#" id="about"><h2>About</h2></a>
+                <a href="#" id="mission"><h3>Mission</h3></a>
+                <a href="#" id="contact_us"><h3>Contact Us</h3></a>
+            </div>
+            <div class="menu_column">
+                <a href="#" id="about"><h2>Notice</h2></a>
+                <a href="#" id="artists_notice"><h3>Artist's Notice</h3></a>
+                <a href="#" id="companys_notice"><h3>Company's Notice</h3></a>
+            </div>
+            <div class="menu_column">
+                <a href="#" id="about"><h2>Creators</h2></a>
+                <a href="#" id="mission"><h3>Profile</h3></a>
+            </div>
+            <div class="menu_column">
+                <a href="#" id="career"><h2>Career</h2></a>
+                <a href="#" id="agnecy"><h3>Agnecy</h3></a>
+                <a href="#" id="production"><h3>Production</h3></a>
+            </div>
+            <div class="menu_column">
+                <a href="#" id="IR"><h2>IR</h2></a>
+            </div>
+            <div class="menu_column">
+                <a href="#" id="shop"><h2>Shop</h2></a>
+            </div>
+        </nav>
     </header>
-    <div class="first_page">
-        <p class="first_page_title">Mission</p>
-        <p class="first_page_main">“All an artist needs is one enthusiastic listener.”</p>
-        <p></p>
-    </div>
-    <div>
-        <p class="first_page_title">Contact Us</p>
-        <p class="first_page_main">Email: libramentum@naver.com</p>
-    </div>
+    <article>
+        <h1>Mission</h1>
+        <h2>Paragraph</h2>
+    </article>
     <footer> <!-- company information -->
         <p>유한회사 리브라멘툼</p>
         <p>주소: 경기도 용인시 기흥구 동백중앙로 191, 8층 씨8349호(중동, 씨티프라자)</p>
@@ -52,5 +52,5 @@
         <p>© Libramentum, Co. Ltd. All rights reserved. 2024</p>
     </footer>
 </body>
-<script src="../js/about_us.js"></script>
+<script src="../scripts.js"></script>
 </html>

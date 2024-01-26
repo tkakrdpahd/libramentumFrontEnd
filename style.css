@@ -1,9 +1,144 @@
+/* common setting */
+body {
+    margin: 0;
+    padding: 0;
+
+    margin-top: 11vw;
+
+    color: white;
+    background-color: black;
+    font-family: "ヒラギノ角ゴシック", sans-serif;
+}
+header {
+    background-color: white;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 1%;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+}
+
+/* header common setting */
+.libramentum_logo_text {
+    margin: 0;
+}
+.menu_column h2, .menu_column h3 {
+    margin: 0;
+
+    color: black;
+}
+
+/* navigation common setting */
+nav {
+    display: flex;
+}
+nav h2:hover, nav h3:hover {
+    color: purple;
+}
+
+article {
+    padding: 1%;
+}
+
+article h1, article h2 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    color: white;
+    font-family: "ヒラギノ角ゴシック", sans-serif;
+    text-align:center;
+}
+
 /* desctop setting */
 @media screen and (min-width: 1080px) {
+    .main_logo_set {
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+    }
 
+    .libramentum_logo {
+        width: 2.5vw;
+        height: auto;
+    }
+
+    .libramentum_logo_text {
+        font-size: 0.9vw;
+        color:black;
+    }
+
+    .menu_column {
+        margin-right: 4.5vw;
+        margin-top: 2vw;
+    }
+
+    .menu_column h2 {
+        font-size: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .menu_column h3 {
+        font-size: 0.8vw;
+        font-weight: normal;
+        margin-top: 1vw;
+    }
+
+    iframe {
+        width: calc(16vw * 3.2);
+        height: calc(9vw * 3.2);
+        margin: 1%;
+    }
+
+    footer {
+        font-size: 0.8vw;
+    }
 }
 
 /* mobile device */
 @media screen and (max-width: 1079px) {
+    .main_logo_set {
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+    }
+    .libramentum_logo {
+        width: 8.5vw;
+        height: auto;
+    }
+    .libramentum_logo_text {
+        display: none;
+    }
+    .menu_column {
+        margin-right: 4.5vw;
+        margin-top: 2.55vw;
+    }
+    .menu_column h3 {
+        display: none;
+    }
 
+    .menu_column h2, .menu_column h3 {
+        font-size: 2.5vw;
+    }
+
+    iframe {
+        width: calc(100vw - 4%);
+        height: calc(100vw * 9 / 16);
+        margin: 2%;
+        box-sizing: border-box;
+    }    
+    
+    footer {
+        font-size: 1.55vw;
+    }
 }
