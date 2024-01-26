@@ -7,14 +7,14 @@
 </head>
 <body>
     <header>
-        <div class="header-content"> <!-- Top logo & navigation -->
+        <div class="header-content">
             <a id="index" class="logo_set">
-                <img src="./img/libramentum_logo.svg" alt="logo" class="logo"></img>
+                <img src="./img/libramentum_logo.svg" alt="logo" class="logo">
                 <p class="logo_text">Libramentum <br> Entertainment</p>
-            </a>            
+            </a>
             <nav class="menu_entire">
                 <div class="menu_set">
-                    <a href="#" id='about_us' class="menu_about">About</a>
+                    <a href="#" id="about_us" class="menu_about">About</a>
                     <span class="menu_about_sub">Mission</span>
                     <span class="menu_about_sub">Contact Us</span>
                 </div>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="menu_set">
                     <a href="#" id="creators" class="menu_creators">Creators</a>
-                    <span class="menu_creators_sub">Profile</p>
+                    <span class="menu_creators_sub">Profile</span>
                 </div>
                 <div class="menu_set">
                     <a href="#" id="carrier" class="menu_carrier">Carrier</a>
@@ -36,25 +36,22 @@
             </nav>
         </div>
     </header>
-    <div class="first_page">
-        <!-- <p class="first_page_title"> </p> -->
-    </div>
-    <div class="logos_and_video"> <!-- other logos & video -->
+    <div class="logos_and_video">
         <span class="video_main">
             <iframe src="https://www.youtube.com/embed/CoyQM_Zi0OM?si=0f7pg0srQLajFH1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </span>
         <span class="other_service_logo">
-            <object data="img/youtube_logo.svg" type="image/svg+xml" onclick="logoLink(y)" aria-label="유튜브_로고" class="youtube_logo"></object>
-            <object data="img/melon_logo.svg" type="image/svg+xml" onclick="logoLink(m)" aria-label="멜론_로고" class="melon_logo"></object>
-            <object data="img/x_logo.svg" type="image/svg+xml" onclick="logoLink(x)" aria-label="트위터_로고" class="x_logo"></object>
+            <a href="#" id="youtube_logo"><img src="img/youtube_logo.svg" aria-label="유튜브_로고" class="youtube_logo"></a>
+            <img src="img/melon_logo.svg" id="melon_logo" aria-label="멜론_로고" class="melon_logo">
+            <img src="img/x_logo.svg" id="x_logo" aria-label="트위터_로고" class="x_logo">
         </span>
     </div>
-    <footer> <!-- company information -->
+    <footer>
         <p>유한회사 리브라멘툼</p>
         <p>주소: 경기도 용인시 기흥구 동백중앙로 191, 8층 씨8349호(중동, 씨티프라자)</p>
         <p>사업자등록번호: 515-81-57493 | 통신판매업등록번호: [통신판매업등록번호 입력]</p>
         <p>© Libramentum, Co. Ltd. All rights reserved. 2024</p>
     </footer>
 </body>
-<script src="./js/index.js"></script>
+<script src="/js/index.js"></script>
 </html>

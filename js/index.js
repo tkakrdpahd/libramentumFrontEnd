@@ -1,5 +1,3 @@
-// EventListener for web-page
-
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('index').addEventListener('click', function() {
         hrefLink('in');
@@ -19,33 +17,47 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('shop').addEventListener('click', function() {
         hrefLink('sh');
     });
+    document.getElementById('youtube_logo').addEventListener('click', function() {
+        hrefLink('y');
+    });
+    document.getElementById('melon_logo').addEventListener('click', function() {
+        hrefLink('m');
+    });
+    document.getElementById('x_logo').addEventListener('click', function() {
+        hrefLink('x');
+    });
 });
 
 function hrefLink(page) {
     switch(page) {
         case 'in':
-            window.location.href = './index.html'; // change to 'www.libramentum.co.kr/index.html'
+            window.location.href = './index.html';
             break;
         case 'ab':
-            window.location.href = './html/about_us.html';
+            window.location.href = 'www.naver.com';
             break;
         case 'an':
-            window.location.href = 'https://notice.libramentum.co.kr'; // link to tistory custom page
+            window.location.href = 'https://notice.libramentum.co.kr';
             break;
         case 'cr':
-            window.location.href = './html/creators.html';
+            window.location.href = 'http://www.libramentum.co.kr/html/creators.html';
             break;
         case 'ca':
             window.location.href = 'https://carrier.libramentum.co.kr';
             break;
         case 'sh':
-            window.location.href = './html/shop.html'; // js need connect to naver marketplace API DB
+            window.location.href = 'http://www.libramentum.co.kr/html/shop.html';
+            break;
+        case 'y':
+            window.location.href = 'https://www.youtube.com';
+            break;
+        case 'm':
+            window.location.href = 'https://www.melon.com';
+            break;
+        case 'x':
+            window.location.href = 'https://twitter.com';
             break;
         default:
             break;
     }
-}
-
-function logoLink() {
-
 }

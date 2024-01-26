@@ -99,7 +99,7 @@
     .menu_shop:hover {
         color: green;
     }
-    
+
     .first_page_title {
         color: white;
         font-size: 2rem;
@@ -148,12 +148,15 @@
     }
 
     .melon_logo {
+        z-index: auto;
         width: calc(2.47vw * 0.72);
     }
     .youtube_logo {
+        z-index: auto;
         width: calc(3.45vw * 0.72);
     }
     .x_logo {
+        z-index: auto;
         width: calc(2.41vw * 0.72);
     }
 
