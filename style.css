@@ -79,8 +79,10 @@ footer {
     }
 
     .menu_column {
-        margin-right: 4.5vw;
-        margin-top: 2vw;
+        padding-right: 4.5vw;
+        padding-top: 1.8vw;
+
+        text-align: center;
     }
 
     .menu_column h2 {
@@ -89,9 +91,10 @@ footer {
     }
 
     .menu_column h3 {
-        font-size: 0.8vw;
+        font-size: 0.83vw;
         font-weight: normal;
-        margin-top: 1vw;
+
+        padding-top: 0.5vw;
     }
 
     /* article css setting */
@@ -106,7 +109,7 @@ footer {
     }
 
     article h2 {
-        font-size: 1vw;
+        font-size: 1.125vw;
         font-weight: normal;
         font-style: italic;
 
@@ -114,7 +117,7 @@ footer {
     }
 
     article h3 { /* article main style */
-        font-size: 0.95vw;
+        font-size: 1vw;
         font-weight: lighter;
 
         width: 70vw;
@@ -130,10 +133,16 @@ footer {
     /* other logoes setting */
     .logo_set {
         padding-left: 1vw;
+        align-items: center;
     }
 
     .youtube_logo {
-        width: 2.65vw;
+        width: 2.25vw;
+        height: auto;
+    }
+
+    .melon_logo {
+        width: 1.6vw;
         height: auto;
     }
 
@@ -144,7 +153,7 @@ footer {
 }
 
 /* mobile device */
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1079px) {    
     .main_logo_set {
         display: flex;
         align-items: center;
@@ -201,8 +210,18 @@ footer {
     }   
     
     /* other logoes setting */
+    .logo_set {
+        padding-left: 2vw;
+        align-items: center;
+    }
+
     .youtube_logo {
         width: 5vw;
+        height: auto;
+    }
+
+    .melon_logo {
+        width: 3.45vw;
         height: auto;
     }
 
