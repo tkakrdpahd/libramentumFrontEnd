@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
 
-    margin-top: 11vw;
+    margin-top: 12vw;
 
     color: white;
     background-color: black;
@@ -102,11 +102,11 @@ footer {
     article h1 { /* article title style */
         margin-bottom: 0.5vw;
 
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     article h2 {
-        font-size: 1.5vw;
+        font-size: 1vw;
         font-weight: normal;
         font-style: italic;
 
@@ -114,7 +114,7 @@ footer {
     }
 
     article h3 { /* article main style */
-        font-size: 1.2vw;
+        font-size: 0.95vw;
         font-weight: lighter;
 
         width: 70vw;
@@ -125,6 +125,16 @@ footer {
         width: calc(16vw * 3.2);
         height: calc(9vw * 3.2);
         margin: 1vw;
+    }
+
+    /* other logoes setting */
+    .logo_set {
+        padding-left: 1vw;
+    }
+
+    .youtube_logo {
+        width: 2.65vw;
+        height: auto;
     }
 
     footer {
@@ -159,13 +169,6 @@ footer {
         font-size: 2.5vw;
     }
 
-    iframe {
-        width: calc(100vw - 4%);
-        height: calc(100vw * 9 / 16);
-        margin: 2%;
-        box-sizing: border-box;
-    }   
-    
     /* article css setting */
     article { /* entier article box including title, quote, and main passage */
         margin: 2vw;
@@ -189,7 +192,20 @@ footer {
         font-size: 2.5vw;
         font-weight: lighter;
     }
+
+    iframe {
+        width: calc(100vw - 4%);
+        height: calc(100vw * 9 / 16);
+        margin: 2%;
+        box-sizing: border-box;
+    }   
     
+    /* other logoes setting */
+    .youtube_logo {
+        width: 5vw;
+        height: auto;
+    }
+
     footer {
         font-size: 1.55vw;
         font-weight: lighter;

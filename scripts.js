@@ -14,16 +14,16 @@ document.addEventListener('DOMContentLoaded', function () {
 function hrefLink(page) {
     switch(page) {
         case 'index':
-            window.location.href = '../index.html';
+            window.location.href = '../index.html'; //http://www.libramentum.co.kr/
             break;
         case 'about':
-            window.location.href = './html/about_us.html';
+            window.location.href = ''; // ./html/about.html
             break;
         case 'mission':
-            window.location.href = './html/about_us.html';
+            window.location.href = ''; // ./html/about_us.html
             break;
         case 'contact_us':
-            window.location.href = './html/contact_us.html';
+            window.location.href = ''; // ./html/contact_us.html
             break;
     }
 }
