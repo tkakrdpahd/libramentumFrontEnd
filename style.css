@@ -101,6 +101,8 @@ footer {
 
     article h1 { /* article title style */
         margin-bottom: 0.5vw;
+
+        font-size: 2vw;
     }
 
     article h2 {
@@ -112,7 +114,7 @@ footer {
     }
 
     article h3 { /* article main style */
-        font-size: 1.5vw;
+        font-size: 1.2vw;
         font-weight: lighter;
 
         width: 70vw;
@@ -164,12 +166,27 @@ footer {
         box-sizing: border-box;
     }   
     
-    article {
-        margin: 1vw;
+    /* article css setting */
+    article { /* entier article box including title, quote, and main passage */
+        margin: 2vw;
     }
 
-    article h3 {
+    article h1 { /* article title style */
+        margin-bottom: 0.5vw;
+
         font-size: 3.5vw;
+    }
+
+    article h2 {
+        font-size: 2.5vw;
+        font-weight: normal;
+        font-style: italic;
+
+        padding: 2%;
+    }
+
+    article h3 { /* article main style */
+        font-size: 2.5vw;
         font-weight: lighter;
     }
     
