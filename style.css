@@ -94,14 +94,40 @@ footer {
         margin-top: 1vw;
     }
 
+    /* article css setting */
+    article { /* entier article box including title, quote, and main passage */
+        margin: 1vw;
+    }
+
+    article h1 { /* article title style */
+        margin-bottom: 0.5vw;
+    }
+
+    article h2 {
+        font-size: 1.5vw;
+        font-weight: normal;
+        font-style: italic;
+
+        padding: 2%;
+    }
+
+    article h3 { /* article main style */
+        font-size: 1.5vw;
+        font-weight: lighter;
+
+        width: 70vw;
+    }
+
+    /* Yotube video css setting */
     iframe {
         width: calc(16vw * 3.2);
         height: calc(9vw * 3.2);
-        margin: 1%;
+        margin: 1vw;
     }
 
     footer {
         font-size: 0.8vw;
+        font-weight: lighter;
     }
 }
 
@@ -136,9 +162,19 @@ footer {
         height: calc(100vw * 9 / 16);
         margin: 2%;
         box-sizing: border-box;
-    }    
+    }   
+    
+    article {
+        margin: 1vw;
+    }
+
+    article h3 {
+        font-size: 3.5vw;
+        font-weight: lighter;
+    }
     
     footer {
         font-size: 1.55vw;
+        font-weight: lighter;
     }
 }

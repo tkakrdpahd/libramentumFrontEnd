@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // 각 ID에 대한 이벤트 리스너 추가
     var ids = ['index', 'about', 'mission', 'contact_us'];
     ids.forEach(function(id) {
         var element = document.getElementById(id);
@@ -12,24 +11,31 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// 페이지 이동을 처리하는 함수
 function hrefLink(page) {
     switch(page) {
         case 'index':
             window.location.href = '../index.html';
             break;
         case 'about':
-            // 'about' 페이지의 URL로 이동
             window.location.href = './html/about_us.html';
             break;
         case 'mission':
-            // 'mission' 페이지의 URL로 이동
-            window.location.href = 'https://www.libramentum.co.kr/mission';
+            window.location.href = './html/about_us.html';
             break;
         case 'contact_us':
-            // 'contact_us' 페이지의 URL로 이동
-            window.location.href = 'https://www.libramentum.co.kr/contact';
+            window.location.href = './html/contact_us.html';
             break;
-        // 추가적인 케이스를 이곳에 추가할 수 있습니다.
     }
+}
+
+// Call data sheet
+function articleDataCall() {
+    //Data sheet need to include following:
+    //Title, Date, Author, Passages
+    //Input file will be .JSON file
+
+    //id="article_id"
+    //id="article_title"
+    //id="article_quote"
+    //id="article_main"
 }
