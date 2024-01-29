@@ -97,6 +97,22 @@ footer {
         padding-top: 0.5vw;
     }
 
+    /* notice section setting */
+    .notice_box{
+        padding: 2vw;
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;    
+    }
+
+    .notice_box h4 {
+        display: flex;
+        flex-direction: column;
+
+        font-size: 1vw;
+    }
+    
     /* article css setting */
     article { /* entier article box including title, quote, and main passage */
         margin: 1vw;
@@ -142,6 +158,11 @@ footer {
     }
 
     .melon_logo {
+        width: 1.6vw;
+        height: auto;
+    }
+
+    .x_logo {
         width: 1.6vw;
         height: auto;
     }
@@ -221,6 +242,11 @@ footer {
     }
 
     .melon_logo {
+        width: 3.45vw;
+        height: auto;
+    }
+
+    .x_logo {
         width: 3.45vw;
         height: auto;
     }
