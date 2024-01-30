@@ -1,5 +1,5 @@
-function readAndWriteCeoInfo() {
-    fetch("json/main_page.json") // Corrected path to fetch the JSON file
+function readAndWrite() {
+    fetch("/json/main_page.json") // Corrected path to fetch the JSON file
         .then(response => response.json()) // Convert the response to JSON
         .then(json => {
             // Access the object for the current language

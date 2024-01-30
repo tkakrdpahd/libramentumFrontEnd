@@ -37,7 +37,7 @@ function hrefLink(page) {
 function switchLanguage(lang) {
     currentLang = lang; // Set the current language based on the button clicked
     updateLanguageButtonStyles(lang); // Update button styles
-    readAndWriteCeoInfo(); // Call the function to update the content based on the current language
+    readAndWrite(); // Call the function to update the content based on the current language
 }
 
 function updateLanguageButtonStyles(selectedLang) {
@@ -69,5 +69,5 @@ document.addEventListener('DOMContentLoaded', function () {
     updateLanguageButtonStyles('ko');
 
     // Load the default language content on initial page load
-    readAndWriteCeoInfo();
+    readAndWrite();
 });
