@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {});
 
 function readAndWriteCeoInfo() {
-    fetch("../json/test.json") // Fetch the JSON file
+    fetch("../json/ceos_profile.json") // Fetch the JSON file
         .then(response => response.json()) // Convert the response to JSON
         .then(json => {
             // Access the first object within the 'ko' array of the JSON
