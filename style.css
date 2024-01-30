@@ -91,6 +91,20 @@ footer {
         padding-top: 0.5vw;
     }
 
+    .lang_button {
+        width: auto;
+        height: 2vw;
+
+        font-size: 1vw;
+        font-weight: 400;
+
+        background-color:transparent;
+
+        margin-top: 2vw;
+
+        border: none;
+    }
+
     /* page article, title body setting */
     .main_page_article{
         padding: 1%;
