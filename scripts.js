@@ -20,7 +20,7 @@ function hrefLink(page) {
             window.location.href = './html/about.html';
             break;
         case 'CEO_profile':
-                window.location.href = '';
+                window.location.href = './html/about.html';
                 break;
         case 'mission':
             window.location.href = './html/about.html';
@@ -37,14 +37,15 @@ function hrefLink(page) {
     }
 }
 
-// Call data sheet
-function articleDataCall() {
-    //Data sheet need to include following:
-    //Title, Date, Author, Passages
-    //Input file will be .JSON file
+document.addEventListener('DOMContentLoaded', function () {
+    jsonRead();
+    writeJson();
+});
 
-    //id="article_id"
-    //id="article_title"
-    //id="article_quote"
-    //id="article_main"
+function jsonRead() {
+
+}
+
+function writeJson() {
+    document.getElementById("ceo_name").innerText = "두민석";
 }

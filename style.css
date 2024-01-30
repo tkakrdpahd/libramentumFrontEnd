@@ -1,28 +1,31 @@
-/* common setting */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-
     margin-top: 12vw;
 
-    color: white;
     background-color: black;
-    font-family: "ヒラギノ角ゴシック", sans-serif;
+    color: white;
+
+    font-family: 'Noto Sans KR', sans-serif;
 }
+
 header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+
+    padding: 1%;
+
     background-color: white;
 
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
-    padding: 1%;
-
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
 }
+
 a {
     text-decoration: none;
 }
@@ -30,6 +33,7 @@ a {
 /* header common setting */
 .libramentum_logo_text {
     margin: 0;
+    font-weight: 500;
 }
 .menu_column h2, .menu_column h3 {
     margin: 0;
@@ -45,23 +49,13 @@ nav h2:hover, nav h3:hover {
     color: purple;
 }
 
-article {
-    padding: 1%;
-}
-
-article h1, article h2 {
-    margin: 0;
-    padding: 0;
-}
-
 footer {
     color: white;
-    font-family: "ヒラギノ角ゴシック", sans-serif;
     text-align:center;
 }
 
-/* desctop setting */
 @media screen and (min-width: 1080px) {
+    /* header general setting */
     .main_logo_set {
         display: flex;
         align-items: center;
@@ -79,8 +73,8 @@ footer {
     }
 
     .menu_column {
-        padding-right: 4.5vw;
-        padding-top: 1.8vw;
+        padding-right: 6.5vw;
+        padding-top: 0.5vw;
 
         text-align: center;
     }
@@ -92,58 +86,32 @@ footer {
 
     .menu_column h3 {
         font-size: 0.83vw;
-        font-weight: normal;
+        font-weight: 300;
 
         padding-top: 0.5vw;
     }
 
-    /* notice section setting */
-    .notice_box{
-        padding: 2vw;
-
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;    
+    /* page article, title body setting */
+    .main_page_article{
+        padding: 1%;
+        text-align: center;
     }
 
-    .notice_box h4 {
-        display: flex;
-        flex-direction: column;
+    .page_title {
+        font-size: 1.4vw;
+        font-weight: 500;
 
+    }
+
+    .page_body {
         font-size: 1vw;
-    }
-    
-    /* article css setting */
-    article { /* entier article box including title, quote, and main passage */
-        margin: 1vw;
+        font-weight: 300;
     }
 
-    article h1 { /* article title style */
-        margin-bottom: 0.5vw;
-
-        font-size: 1.5vw;
-    }
-
-    article h2 {
-        font-size: 1.125vw;
-        font-weight: normal;
-        font-style: italic;
-
-        padding: 2%;
-    }
-
-    article h3 { /* article main style */
-        font-size: 1vw;
-        font-weight: lighter;
-
-        width: 70vw;
-    }
-
-    /* Yotube video css setting */
     iframe {
-        width: calc(16vw * 3.2);
-        height: calc(9vw * 3.2);
-        margin: 1vw;
+        width: calc(16vw * 2.5);
+        height: calc(9vw * 2.5);
+        padding: 1vw;
     }
 
     /* other logoes setting */
@@ -153,106 +121,25 @@ footer {
     }
 
     .youtube_logo {
-        width: 2.25vw;
+        width: 2vw;
         height: auto;
     }
 
     .melon_logo {
-        width: 1.6vw;
+        width: 1.4vw;
         height: auto;
     }
 
     .x_logo {
-        width: 1.6vw;
+        width: 1.4vw;
         height: auto;
     }
 
     footer {
-        font-size: 0.8vw;
-        font-weight: lighter;
+        font-size: 0.6vw;
+        font-weight: 300;
     }
 }
 
-/* mobile device */
-@media screen and (max-width: 1079px) {    
-    .main_logo_set {
-        display: flex;
-        align-items: center;
-        gap: 0.5vw;
-    }
-    .libramentum_logo {
-        width: 8.5vw;
-        height: auto;
-    }
-    .libramentum_logo_text {
-        display: none;
-    }
-    .menu_column {
-        margin-right: 4.5vw;
-        margin-top: 2.55vw;
-    }
-    .menu_column h3 {
-        display: none;
-    }
-
-    .menu_column h2, .menu_column h3 {
-        font-size: 2.5vw;
-    }
-
-    /* article css setting */
-    article { /* entier article box including title, quote, and main passage */
-        margin: 2vw;
-    }
-
-    article h1 { /* article title style */
-        margin-bottom: 0.5vw;
-
-        font-size: 3.5vw;
-    }
-
-    article h2 {
-        font-size: 2.5vw;
-        font-weight: normal;
-        font-style: italic;
-
-        padding: 2%;
-    }
-
-    article h3 { /* article main style */
-        font-size: 2.5vw;
-        font-weight: lighter;
-    }
-
-    iframe {
-        width: calc(100vw - 4%);
-        height: calc(100vw * 9 / 16);
-        margin: 2%;
-        box-sizing: border-box;
-    }   
-    
-    /* other logoes setting */
-    .logo_set {
-        padding-left: 2vw;
-        align-items: center;
-    }
-
-    .youtube_logo {
-        width: 5vw;
-        height: auto;
-    }
-
-    .melon_logo {
-        width: 3.45vw;
-        height: auto;
-    }
-
-    .x_logo {
-        width: 3.45vw;
-        height: auto;
-    }
-
-    footer {
-        font-size: 1.55vw;
-        font-weight: lighter;
-    }
+@media screen and (max-width: 1079px) {
 }
