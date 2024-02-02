@@ -203,6 +203,7 @@ footer {
     
     .menu_column h2 {
         font-size: 2.5vw;
+        margin-top: 1vw;
         padding-bottom: 1vw;
     }
     
@@ -257,7 +258,7 @@ footer {
         }
 
         footer {
-            font-size: 0.95vw;
+            font-size: 1.5vw;
             font-weight: 300;
         }
 }
