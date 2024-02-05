@@ -1,32 +1,37 @@
 var currentLang = 'ko';
 
 document.addEventListener('DOMContentLoaded', function () {
-    // 페이지 이동을 위한 이벤트 리스너 등록
-    var ids = ['index', 'about', 'CEO_profile', 'mission', 'contact_us', 'notice', 'IR'];
+                var ids = ['index', 'about', 'CEO_profile', 'mission', 'contact_us', 'artists_notice', 'companys_notice', 'creators', 'profile', 'career', 'agency', 'production', 'notice', 'IR', 'shop'];
     ids.forEach(function(id) {
         var element = document.getElementById(id);
         if (element) {
             element.addEventListener('click', function(event) {
-                event.preventDefault(); // 기본 동작 방지
-                hrefLink(id); // 해당 페이지로 이동하는 함수 호출
+                event.preventDefault();
+                hrefLink(id);
             });
         }
     });
 
-    // CEO 정보 읽기 및 쓰기
     readAndWriteCeoInfo();
 });
 
 function hrefLink(page) {
-    // 페이지 이동 로직
     var pageMap = {
         'index': '../index.html',
         'about': '/html/about.html',
-        'CEO_profile': '/html/ceos_profile.html',
+        'CEO_profile': '/html/404.html',
         'mission': '/html/about.html',
-        'contact_us': '/html/contact_us.html',
-        'notice': '/html/notice.html',
-        'IR': '/html/ir.html'
+        'contact_us': '/html/404.html',
+        'artists_notice': '/html/404.html',
+        'companys_notice': '/html/404.html',
+        'creators': '/html/404.html',
+        'profile': '/html/404.html',
+        'career': '/html/404.html',
+        'agency': '/html/404.html',
+        'production': '/html/404.html',
+        'notice': '/html/404.html',
+        'IR': '/html/404.html',
+        'shop': '/html/404.html'
     };
 
     if (pageMap[page]) {
