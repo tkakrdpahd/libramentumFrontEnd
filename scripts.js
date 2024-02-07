@@ -26,7 +26,7 @@ function hrefLink(page) {
         'companys_notice': '/html/404.html',
         'creators': '/html/404.html',
         'profile': '/html/404.html',
-        'career': '/html/404.html',
+        'career': '/html/career.html',
         'agency': '/html/404.html',
         'production': '/html/404.html',
         'notice': '/html/404.html',
