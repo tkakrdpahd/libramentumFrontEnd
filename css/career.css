@@ -15,6 +15,23 @@
         color: black;
 
     }
+    
+    .career_filters h2 {
+        margin: 0;
+        margin-top: 1.5vw;
+        margin-left: 2vw;
+    }
+
+    .checkbox{
+        margin: 1vw;
+    }
+
+    h3 {
+        display: flex;
+        align-items: center; /* 플랙스 아이템 정렬 */
+
+        margin: 0;
+    }
 }
 @media screen and (max-width: 1079px) {
 }
