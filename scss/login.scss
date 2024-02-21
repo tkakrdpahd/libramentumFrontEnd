@@ -1,0 +1,29 @@
+.login_page {
+    margin: auto;
+    padding: 2vw;
+
+    width: 15vw;
+
+    background-color: white;
+    color: black;
+
+    text-align: center;
+
+    border-style: solid;
+    border-color: gray;
+
+    img {
+        width: 2.8vw;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 1vw;
+        font-weight: 300;
+    }
+
+    input {
+        border-style: solid;
+        border-color: gray;
+    }
+}
