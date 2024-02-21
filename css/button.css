@@ -1,0 +1,51 @@
+.apply_button {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.apply_button:active, .apply_button:hover {
+  outline: 0;
+}
+.apply_button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+.apply_button span:hover {
+  background: none;
+}
+
+.general_button {
+  width: 5vw;
+  height: 1.5vw;
+  color: white;
+  background-color: #000000;
+  border-style: solid;
+  border-color: white;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+.general_button:hover {
+  background: #fff;
+  color: #000;
+}

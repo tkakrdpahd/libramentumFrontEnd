@@ -1,9 +1,11 @@
+<!-- IMPORTANT NOTE, data sequarity should be checked before the service -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <title>Libramentum Entertainment</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <header>
@@ -14,13 +16,16 @@
                     <h1>Libramentum<br>Entertainment</h1>
                 </div>
             </a>
+            <div class="lang_button_set">
+                <button id="lang_ko">Korean</button>
+                <button id="lang_en">English</button>
+            </div>
         </div>
     </header>
-    <!-- main page contents need to add -->
-    <div class="general_article" id="general_article">
-        <h2>404</h2>
-        <h3>Opps! We are currently working on this page.</h3>
-        <h3>Go back to main page</h3>
+    <div id="login_page" class="login_page">
+        <img src="../img/libramentum_logo.svg" alt="libramentum_logo">
+        <h3>ID: <input type="text" id="login_id"></h3>
+        <h3>PW: <input type="text" id="login_pw"></h3>
     </div>
     <footer>
         <p>유한회사 리브라멘툼</p>
@@ -30,4 +35,5 @@
     </footer>
 </body>
 <script src="../scripts.js"></script>
+<script src=""></script>
 </html>

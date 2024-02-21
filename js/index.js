@@ -1,5 +1,7 @@
+const socket = io();
+
 function readAndWrite() {
-    fetch("../json/about.json")
+    fetch("../json/index.json")
         .then(response => response.json())
         .then(json => {
             const language = localStorage.getItem("language");
