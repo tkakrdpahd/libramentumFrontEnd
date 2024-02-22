@@ -98,13 +98,18 @@ $animation-delay: 500ms;
 
     .lang_button_set {
         button {
-            width: 5vw;
+            width: 4.5vw;
             height: 100%;
+
             margin-top: 1vw;
+            padding: 0.2vw;
+
+            font-size: 0.65vw;
+
             color: black;
             background-color: #fff;
-            border-style: solid;
-            border-color: black;
+            border: 0.1vw solid black;
+
             animation: shiny-btn1 3s ease-in-out infinite;
         }
 
