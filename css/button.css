@@ -37,12 +37,11 @@
 }
 
 .general_button {
-  width: 5vw;
+  width: 4.5vw;
   height: 1.5vw;
   color: white;
   background-color: #000000;
-  border-style: solid;
-  border-color: white;
+  border: solid 0.1vw white;
   animation: shiny-btn1 3s ease-in-out infinite;
 }
 .general_button:hover {

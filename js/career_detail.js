@@ -39,7 +39,7 @@ function readAndWrite() {
 document.addEventListener('DOMContentLoaded', (event) => {
     let apply_button = document.getElementById("apply_button");
     apply_button.addEventListener('click', function(event) {
-        var url = '../html/apply.html';
+        var url = '../html/notification.html';
         window.location.href = url;
     });
 });

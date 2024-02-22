@@ -51,19 +51,18 @@
 
 .general_button {
     & {
-        width: 5vw;
-        height: 1.5vw;
+      width: 4.5vw;
+      height: 1.5vw;
 
-        color: white;
-        background-color: #000000;
-        
-        border-style: solid;
-        border-color: white;
-        animation: shiny-btn1 3s ease-in-out infinite;
+      color: white;
+      background-color: #000000;
+      
+      border: solid 0.1vw white;
+      animation: shiny-btn1 3s ease-in-out infinite;
     }
 
     &:hover {
-        background: #fff;
-        color: #000;
+      background: #fff;
+      color: #000;
     }
 }

@@ -133,6 +133,10 @@ $animation-delay: 500ms;
     }
     .other_logos {
         margin-left: 3vw;
+
+        img {
+            margin-right: 0.25vw;
+        }
     }
     .youtube_logo {
         width: 2vw;
@@ -197,7 +201,8 @@ $animation-delay: 500ms;
             font-weight: 300;
         }
         span {
-            font-weight: 500;
+            font-size: 0.85vw;
+            font-weight: 300;
         }
     }
 

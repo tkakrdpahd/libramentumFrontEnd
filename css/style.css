@@ -115,6 +115,9 @@ footer {
   .other_logos {
     margin-left: 3vw;
   }
+  .other_logos img {
+    margin-right: 0.25vw;
+  }
   .youtube_logo {
     width: 2vw;
     height: auto;
@@ -168,7 +171,8 @@ footer {
     font-weight: 300;
   }
   .contact_us_main span {
-    font-weight: 500;
+    font-size: 0.85vw;
+    font-weight: 300;
   }
   /* this is career page article setting */
   .career_main_page {
