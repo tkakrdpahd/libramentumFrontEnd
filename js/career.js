@@ -10,7 +10,6 @@ function readAndWrite() {
                 const organization = element.organization === 'agency' ? 'a' : 'p';
                 const title = element["title"];
 
-                // create id for career detail page
                 const idx = organization + element["idx"];
 
                 let careerPageElements = document.getElementById(idx);
@@ -52,6 +51,14 @@ function readAndWrite() {
         sessionStorage.setItem("idx", idx);
     }
     
+    // need to update for notification contents
+    fetch("../json/notification.json")
+    .then(response => response.json())
+    .then(json => {
+        const language = localStorage.getItem("language");
+        
+    })
+
     function hrefLinkCareer() {
         var url = '../html/career_detail.html';
         window.location.href = url;
