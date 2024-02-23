@@ -3,11 +3,11 @@
 // update career.js readAndWrite(); update for create notification contents
 
 function readAndWrite() {
-    var idx = sessionStorage.getItem("idx");
-
     fetch("../json/notification.json")
     .then(response => response.json())
         .then(json => {
+            const language = localStorage.getItem("language");
+            var idx = sessionStorage.getItem("idx");
             
         })
 
